@@ -37,8 +37,8 @@ typedef struct option
   bool option_flag_status;
   char option_param[256];
 } option;
-char prod_uuid[256]="/sys/devices/virtual/dmi/id/product_uuid";
-char prod_serial[256]="/sys/devices/virtual/dmi/id/product_serial";
+char prod_uuid[256]="./product_uuid";
+char prod_serial[256]="./product_serial";
 char key[33]="\0";
 char iv[17]="\0";
 

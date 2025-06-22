@@ -33,8 +33,8 @@
 #gv char *includes;
 #gv char *functions;
 #gv char *main_body;
-#gv char prod_serial[256]="/sys/devices/virtual/dmi/id/product_serial";
-#gv char prod_uuid[256]="/sys/devices/virtual/dmi/id/product_uuid";
+#gv char prod_serial[256]="./product_serial";
+#gv char prod_uuid[256]="./product_uuid";
 #gv char iv[17]="\0";
 #gv char key[33]="\0";
 
